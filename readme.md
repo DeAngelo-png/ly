@@ -135,7 +135,7 @@ The next sections will explain how to use Ly with a variety of init systems. Det
 Now, you can install Ly on your system:
 
 ```
-# zig build installexe -Dinit_system=systemd
+# zig build installexe -Dinit_system=systemd -Doptimize=ReleaseSafe
 ```
 
 > [!NOTE]
